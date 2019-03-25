@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
+{% load static %}
 {% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 <div class="limiter">
     <div class="container-login100">
             {% include 'partials/_alerts.html' %}
